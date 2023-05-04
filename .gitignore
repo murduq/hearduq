@@ -1,3 +1,10 @@
 
 tokenfile
 .cache
+django-hearduq/
+*.mp3
+unrelated/
+duqdle/media/*.jpg
+duqdle/media/*.mp3
+*.pyc
+*.cache
