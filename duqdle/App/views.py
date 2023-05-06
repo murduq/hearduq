@@ -19,7 +19,8 @@ def index(request):
         sotd = Song.objects.create(title=sotd_dict['title'],
                                 artist=sotd_dict['artist'],
                                 image=sotd_dict['image'],
-                                audio_file=sotd_dict['audio_file'])
+                                # audio_file=sotd_dict['audio_file'],
+                                audio_link=sotd_dict['audio_link'])
         sotd.save()
     
     return render(request,"index.html",context)

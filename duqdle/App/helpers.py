@@ -31,8 +31,8 @@ def gen_song():
     with open('media/album_art.jpg', 'wb') as handler:
         handler.write(img_data)
     song_dict['image'] = song['track']['album']['images'][0]['url']
-    song_dict['audio_file'] = 'test.mp3'
-    # audio_link = 
+    # song_dict['audio_file'] = 'test.mp3'
+    song_dict['audio_link'] = song['track']['preview_url']
     # duration = 
     return song_dict
     
