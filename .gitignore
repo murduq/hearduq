@@ -8,3 +8,4 @@ duqdle/media/*.jpg
 duqdle/media/*.mp3
 *.pyc
 *.cache
+album_art.jpg
